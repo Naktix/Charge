@@ -1,0 +1,18 @@
+[package]
+name = "charge"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[[bin]]
+name = "charge"
+path = "src/main.rs"
+
+[dependencies]
+libcosmic = { git = "https://github.com/pop-os/libcosmic.git", features = ["applet"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+zbus = "5.13.2"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1

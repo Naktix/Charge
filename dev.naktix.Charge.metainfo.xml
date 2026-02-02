@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+    <id>dev.naktix.Charge</id>
+    <extends>org.pop_os.CosmicPanel</extends>
+    <extends>org.pop_os.CosmicDock</extends>
+    <name>Charge</name>
+    <summary>Battery percentage display for COSMIC</summary>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>MIT</project_license>
+    <description>
+        <p>Shows the current battery charge directly on the COSMIC panel or dock.</p>
+    </description>
+    <developer_name>Naktix</developer_name>
+    <url type="homepage">https://github.com/naktix/charge</url>
+    <releases>
+        <release version="0.1.0" date="2026-02-02">
+            <description>Initial release</description>
+        </release>
+    </releases>
+</component>

@@ -23,7 +23,7 @@ cd charge
 ```
 
 The script:
-- compiles Cosmify in release-mode
+- compiles Charge in release-mode
 - installs the binary at `/usr/bin/charge`
 - installs the `.desktop`‑file at `/usr/share/applications/`
 - installs the appstream‑metainfo at `/usr/share/metainfo/`
@@ -43,9 +43,9 @@ Open:
 
 Scroll down to the external applets and choose **Charge**.
 
-## How to uninstall Cosmify
+## How to uninstall Charge
 
-If you ever wish to uninstall Cosmify just run:
+If you ever wish to uninstall Charge just run:
 
 ```bash
 ./uninstall_charge.sh
